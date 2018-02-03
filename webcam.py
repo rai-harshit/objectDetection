@@ -39,7 +39,7 @@ from utils import visualization_utils as vis_util
 # In[4]:
 
 # What model to download.
-MODEL_NAME = 'ssd_mobilenet_v1_coco_2017_11_17'
+MODEL_NAME = 'ssd_inception_v2_coco_2017_11_17'
 # MODEL_FILE = MODEL_NAME + '.tar.gz'
 # DOWNLOAD_BASE = 'http://download.tensorflow.org/models/object_detection/'
 
