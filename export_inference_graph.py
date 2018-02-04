@@ -50,11 +50,11 @@ Notes:
 
 Example Usage:
 --------------
-python export_inference_graph \
+python export_inference_graph.py \
     --input_type image_tensor \
-    --pipeline_config_path path/to/ssd_inception_v2.config \
-    --trained_checkpoint_prefix path/to/model.ckpt \
-    --output_directory path/to/exported_model_directory
+    --pipeline_config_path training/ssd_mobilenet_v1_coco_2017_11_17.config \
+    --trained_checkpoint_prefix training/model.ckpt-178 \
+    --output_directory mac_n_cheese_inference_graph
 
 The expected output would be in the directory
 path/to/exported_model_directory (which is created if it does not exist)
